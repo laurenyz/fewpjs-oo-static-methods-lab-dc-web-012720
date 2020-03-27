@@ -3,3 +3,5 @@ class Formatter {
     let array = string.split("")
   }
 }
+
+Formatter.capitalize("Hello")
