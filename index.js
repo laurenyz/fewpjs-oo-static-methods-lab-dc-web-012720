@@ -1,8 +1,7 @@
 class Formatter {
   static capitalize(string) {
     let array = string.split("")
-    return array
+    array[0]
   }
 }
 
-console.log(Formatter.capitalize("Hello"))
