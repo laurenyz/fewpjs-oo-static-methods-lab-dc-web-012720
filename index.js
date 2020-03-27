@@ -5,6 +5,10 @@ class Formatter {
     let newArray = array.join("")
     return newArray
   }
+  
+  static sanitize(string) {
+    
+  }
 }
 
 // console.log(Formatter.capitalize("hello"))
