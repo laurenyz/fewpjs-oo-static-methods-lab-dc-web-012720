@@ -7,4 +7,4 @@ class Formatter {
   }
 }
 
-console.log(Formatter.capitalize("hello"))
+// console.log(Formatter.capitalize("hello"))
