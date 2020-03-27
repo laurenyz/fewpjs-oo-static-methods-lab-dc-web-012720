@@ -12,7 +12,7 @@ class Formatter {
   
   static titleize(string) {
     let array = string.split(" ")
-    array.map(word => word.at)
+    array.map(word => word[0])
   }
 }
 
