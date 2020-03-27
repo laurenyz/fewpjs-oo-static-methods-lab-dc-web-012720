@@ -13,8 +13,10 @@ class Formatter {
   static titleize(string) {
     let array = string.split(" ")
     let newArray = array.map((word) => {
-      word[0] = word[0].toUpperCase())
-    }
+      word = word.split("")
+      word[0] = word[0].toUpperCase()
+    let newWord = word.join("")
+    })
     return newArray.join(" ")
   }
 }
