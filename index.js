@@ -9,6 +9,12 @@ class Formatter {
   static sanitize(string) {
     return string.replace( /[^A-Za-z0-9 '-]/g, '' )
   }
+  
+  static titleize(string) {
+    let array = string.split(" ")
+    array.map(word => word.at)
+  }
 }
+
 
 // console.log(Formatter.capitalize("hello"))
