@@ -15,7 +15,7 @@ class Formatter {
     let newArray = array.map((word) => {
       let wordArray = word.split("")
       wordArray[0] = wordArray[0].toUpperCase()
-    let newWord = word.join("")
+    let newWord = wordArray.join("")
     return newWord
     })
     return newArray.join(" ")
