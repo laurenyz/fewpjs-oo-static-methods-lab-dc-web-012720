@@ -4,4 +4,4 @@ class Formatter {
   }
 }
 
-Formatter.capitalize("Hello")
+console.log(Formatter.capitalize("Hello"))
