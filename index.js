@@ -15,7 +15,7 @@ class Formatter {
     let newArray = array.map((word) => {
       if (word == array[0]) {
         return this.capitalize(word)
-      } else if (word == "a" || word == "an" || word == "but" || word == "of" || word == "and" || word == "for" || word == "at" || word == "by" || word == "from"){
+      } else if (word == "a" || word == "an" || word == "but" || word == "of" || word == "and" || word == "for" || word == "at" || word == "by" || word == "from" || word == "the"){
         return word
       } else {
       return this.capitalize(word)}
