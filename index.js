@@ -12,9 +12,11 @@ class Formatter {
   
   static titleize(string) {
     let array = string.split(" ")
-    array.map(word => word.charAt(0))
+    array.map(word => word.charAt(0).toUppercase())
+    array.join(" ")
   }
 }
 
+console.log(Formatter.titleize("i am hungry"))
 
 // console.log(Formatter.capitalize("hello"))
