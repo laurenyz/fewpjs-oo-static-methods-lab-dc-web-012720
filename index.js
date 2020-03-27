@@ -13,7 +13,7 @@ class Formatter {
   static titleize(string) {
     let array = string.split(" ")
     let newArray = array.map((word) => {
-      if (word == newArray[0]) {
+      if (word == array[0]) {
         return this.capitalize(word)
       } else if (word == "a" || word == "an" || word == "but" || word == "of" || word == "and" || word == "for" || word == "at" || word == "by" || word == "from"){
         return word
